@@ -1,16 +1,37 @@
-# React + Vite
+🌾 Crop Yield Predictor — UI (Vite + React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, clean and responsive frontend UI for the Crop Yield Prediction project.
+This part of the project only handles user input and displaying output, while backend + ML will be built by other team members.
 
-Currently, two official plugins are available:
+🎨 Features (UI-Only Work Completed)
+✅ District dropdown (West Bengal districts)
+✅ Crop dropdown
+✅ Inputs for:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Year
 
-## React Compiler
+Average Temperature
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Average Rainfall
 
-## Expanding the ESLint configuration
+✅ Analyze Button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Triggers the output popup (modal).
+
+✅ Output Modal (dummy preview)
+
+Shows:
+
+Crop
+
+District
+
+Year
+
+Predicted yield (mock for now)
+
+Recommended months (mock for now)
+
+Monthly suitability list (mock for now)
+
+⚠️ Note: Real values will come later when backend connects the ML model.
